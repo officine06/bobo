@@ -1,0 +1,43 @@
+.lines {
+	position: relative;
+	height: 35px;
+	width: 35px;
+	margin: 0 auto;
+	&.is--rotate {
+		transform: rotate(180deg);
+	}
+	.single--line {
+		width: 3px;
+		height: 20px;
+		background-color: $gold;
+		position: absolute;
+		&:first-of-type {
+			left: 0;
+			top: 5px;
+			transform: rotate(-30deg);
+		}
+		&:nth-of-type(2) {
+			top: 0;
+			left: 50%;
+			transform: translatex(-50%);
+		}
+		&:last-of-type {
+			right: 0;
+			top: 5px;
+			transform: rotate(30deg);
+		}
+	}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.social--icons {
+		height: 100px;
+		a {
+			height: 40px;
+		}
+	}
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

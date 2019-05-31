@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.3.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rev-all": "^0.9.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-uglify": "^3.0.0",
+    "main-bower-files": "^2.13.1",
+    "run-sequence": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toms15 <info@tommasocostantini.it>",
+  "license": "MIT"
+}

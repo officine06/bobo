@@ -1,0 +1,29 @@
+.instagram_gallery {
+	position: relative;
+	z-index: 2;
+	img {
+		width: 47%;
+		float: left;
+		margin: .4rem 1.5%;
+	}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.instagram_gallery {
+		img {
+			width: 31.3%;
+			margin: .5rem 1%;
+		}
+	}
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.instagram_gallery {
+		img {
+			width: 24%;
+			margin: .4rem 0.5%;
+		}
+	}
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

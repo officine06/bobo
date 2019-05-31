@@ -1,0 +1,35 @@
+.paragraph {
+	position: relative;
+	z-index: 2;
+	h2 {
+		font-family: $title;
+		color: $gold;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	p {
+		font-family: $text;
+		font-weight: 400;
+		color: $white;
+		text-align: center;
+		font-size: 1.1rem;
+		margin: 1rem auto 0;
+	}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.paragraph {
+		h2 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.2rem;
+			line-height: 1.5em;
+			margin: 1.5rem auto .5rem;
+		}
+	}
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

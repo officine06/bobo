@@ -1,0 +1,15 @@
+ # humanstxt.org
+ # The human responsible & technology colophon
+
+ #TEAM
+
+ 	Tommaso Costantini -- Front-End Designer, UI / UX Designer and Wordpress passionate -- www.tommasocostantini.it
+
+ #THANKS
+
+  Officine06 -- Design Studio -- www.officine06.com
+
+ #TECHNOLOGY COLOPHON
+
+ 	HTML5, CSS3, JS, PHP
+ 	jQuery, Foundation Zurb, Font Awesome 

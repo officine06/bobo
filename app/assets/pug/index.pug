@@ -1,0 +1,61 @@
+extend layouts/master
+
+block title
+	| Bo.Bo Bistrot
+
+block append metatags 
+	meta(name='description', content='A description of the page')
+
+block content
+	// Section Hero
+	section#hero.section__content.section__content--hero(style="background: url(/images/BoBo-Bistrot-background-hero.jpg) no-repeat center center;")
+		img(src="/images/arrow.png", alt="")
+	// Header
+	.header--wrapper
+		header
+			.grid-container
+				.grid-x
+					.large-3.medium-3.small-5.column
+						a(href="#hero", rel="home")
+							img(src="/images/BoBo-Bistrot-Logo.png", alt="Bo.Bo Bistrot")
+					.large-6.medium-6.small-2.column
+						nav
+							ul
+								li
+									a(href="#about") About
+								li
+									a(href="#gallery") Gallery
+								li
+									a(href="#contacts") Contacts
+					.large-3.medium-3.small-5.column
+						.social--icons
+							a(href="", target="_blank")
+								i.fab.fa-instagram
+							a(href="", target="_blank")
+								i.fab.fa-twitter
+							a(href="", target="_blank")
+								i.fab.fa-facebook-square
+	// Section About
+	section#about.section__content.section__content--about(style="background: url(/images/BoBo-Bistrot-background-about.jpg) no-repeat center center;")
+		img(src="/images/BoBo-Bistrot-lasifala.png", alt="Bo.Bo Bistrot - La Si Fa La")
+		img(src="/images/BoBo-Bistrot-drink.png", alt="Bo.Bo Bistrot - Drink, Repeat, Listen")
+		.grid-container
+			.grid-x
+				.large-6.large-offset-3.medium-8.medium-offset-2.small-12.column
+					.paragraph
+						.lines
+							span.single--line
+							span.single--line
+							span.single--line
+						h2 Bo.Bo Bistrot
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cum rem iure quos esse dicta similique dolorem, quo, quasi minima a harum commodi. Aspernatur animi, facilis, voluptas cum corrupti odio.
+						.lines.is--rotate
+							span.single--line
+							span.single--line
+							span.single--line
+	// Section About
+	section#gallery.section__content.section__content--gallery
+		.grid-container
+			.grid-x
+				.large-12.medium-12.small-12.column
+					#instagram--feed

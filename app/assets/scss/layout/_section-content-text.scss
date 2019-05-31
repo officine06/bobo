@@ -1,0 +1,43 @@
+section.section__content--text {
+	background-color: $white;
+	padding: 3rem 0;
+	.title--section {
+		h1 {
+			font-family: $title;
+			color: $red;
+			font-size: 1.75rem;
+			margin-bottom: .5rem;
+		}
+		h6 {
+			font-family: $text;
+			color: $black;
+			font-weight: 400;
+			font-size: 1.2rem;
+			margin-bottom: 1.5rem;
+		}
+	}
+	p {
+		font-family: $text;
+		color: $black;
+		font-weight: 400;
+		font-size: 1rem;
+		line-height: 1.5em;
+		margin-bottom: 1.5rem;
+	}
+	ul, ol {
+		li {
+			font-family: $text;
+			color: $black;
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.5em;
+			margin-bottom: .5rem;
+		}
+	}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

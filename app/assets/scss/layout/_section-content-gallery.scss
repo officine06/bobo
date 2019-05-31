@@ -1,0 +1,20 @@
+section.section__content--gallery {
+	background-color: $black;
+	padding: 3rem 0;
+	&:before {
+		background: url(/images/pattern.png) repeat center center;
+		background-size: 25px;
+		position: absolute;
+		content: '';
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

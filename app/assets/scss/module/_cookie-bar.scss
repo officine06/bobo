@@ -1,0 +1,69 @@
+#cookie-bar {
+  background-color: $white;
+  padding: 1rem;
+  &.bottom {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    z-index: 999;
+  }
+  p {
+    font-family: $text;
+    font-size: 1rem;
+    color: $black;
+    a {
+      text-decoration: underline;
+      &:hover {
+        text-decoration: underline !important;
+      }
+      &.cb-enable {
+        background-color: $black;
+        font-family: $text;
+        font-size: .8rem;
+        text-transform: uppercase;
+        color: $white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 30px;
+        margin-top: 1rem;
+        &:hover {
+          text-decoration: none !important;
+        }
+      }
+    }
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #cookie-bar {
+    &.bottom {
+      left: auto;
+      width: 350px;
+    }
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #cookie-bar {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.bottom {
+      bottom: 2rem;
+      right: 2rem;
+    }
+    p {
+      font-size: 1.1rem;
+      strong {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

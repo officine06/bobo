@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Toms15 <info@tommasocostantini.it>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.4.3",
+    "font-awesome": "fontawesome#^4.7.0",
+    "jquery.cookiebar": "^1.2.1"
+  },
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "dist/css/foundation.min.css",
+        "dist/js/foundation.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    }
+  }
+}
